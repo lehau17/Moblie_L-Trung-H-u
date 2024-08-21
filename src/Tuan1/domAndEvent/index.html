@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess My Number</title>
+  <style>
+    body {
+      background-color: #222;
+      color: #eee;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .number {
+      font-size: 6rem;
+      width: 15rem;
+      text-align: center;
+    }
+    .message {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .again {
+      font-size: 1.5rem;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="game">
+    <p class="message"></p>
+    <input type="number" class="guess" placeholder="Enter your guess" />
+    <button class="again">Again!</button>
+    <p class="number">?</p>
+    <p>Score: <span class="score">20</span></p>
+  </div>
+  <script src="challengeOne.js"></script>
+</body>
+</html>
