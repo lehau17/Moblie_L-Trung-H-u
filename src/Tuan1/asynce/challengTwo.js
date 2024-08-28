@@ -27,7 +27,7 @@ createImage("img/img-1.jpg")
   .then((img) => {
     currentImage = img;
     console.log("Image 1 loaded");
-    return wait(2);
+    return wait(0.1);
   })
   .then(() => {
     currentImage.style.display = "none";
@@ -36,7 +36,7 @@ createImage("img/img-1.jpg")
   .then((img) => {
     currentImage = img;
     console.log("Image 2 loaded");
-    return wait(2);
+    return wait(0.1);
   })
   .then(() => {
     currentImage.style.display = "none";
